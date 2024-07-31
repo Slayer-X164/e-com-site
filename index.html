@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ShoeBox</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css">
   </head>
   <body>
     <!-- nav -->
@@ -27,181 +28,13 @@
         <!-- item 3 -->
         <div class="nav-item">
           <a href="/index.html">HOME</a>
-          <span class="limitedOffer">Limited Offer!</span>
+          
         </div>
       </div>
     </nav>
     <!-- nav -->
     <!-- slider -->
-    <div class="slider" id="slider">
-      <div class="sliderWrapper">
-        <div class="sliderItem">
-          <img src="/img/air.png" class="sliderImg" alt="" />
-          <div class="sliderBg"></div>
-          <h1 class="sliderTitle">
-            AIR FORCE <br />
-            NEW <br />
-            SEASON
-          </h1>
-          <h2 class="sliderPrice">₹9968</h2>
-          <a href="#product">
-            <button class="buyButton">BUY NOW</button>
-          </a>
-        </div>
-        <div class="sliderItem">
-          <img src="/img/blazer.png" class="sliderImg" alt="" />
-          <div class="sliderBg"></div>
-          <h1 class="sliderTitle">
-            BLAZER<br />
-            NEW <br />
-            SEASON
-          </h1>
-          <h2 class="sliderPrice">₹14993</h2>
-          <a href="#product">
-            <button class="buyButton">BUY NOW</button>
-          </a>
-        </div>
-        <div class="sliderItem">
-          <img src="/img/jordan.png" class="sliderImg" alt="" />
-          <div class="sliderBg"></div>
-          <h1 class="sliderTitle">
-            AIR JORDAN <br />
-            NEW <br />
-            SEASON
-          </h1>
-          <h2 class="sliderPrice">₹12480</h2>
-          <a href="#product">
-            <button class="buyButton">BUY NOW</button>
-          </a>
-        </div>
-        <div class="sliderItem">
-          <img src="/img/crater.png" class="sliderImg" alt="" />
-          <div class="sliderBg"></div>
-          <h1 class="sliderTitle">
-            CRATER <br />
-            NEW <br />
-            SEASON
-          </h1>
-          <h2 class="sliderPrice">₹9130</h2>
-          <a href="#product">
-            <button class="buyButton">BUY NOW</button>
-          </a>
-        </div>
-        <div class="sliderItem">
-          <img src="/img/hippie.png" class="sliderImg" alt="" />
-          <div class="sliderBg"></div>
-          <h1 class="sliderTitle">
-            HIPPIE<br />
-            NEW <br />
-            SEASON
-          </h1>
-          <h2 class="sliderPrice">₹11643</h2>
-          <a href="#product">
-            <button class="buyButton">BUY NOW</button>
-          </a>
-        </div>
-      </div>
-    </div>
-    <div class="features">
-      <div class="feature">
-        <img src="/img/shipping.png" class="featureImg" alt="" />
-        <span class="featureTitle">FREE SHIPPING</span>
-        <span class="featureDesc">Free World Wide Shipping On All Orders.</span>
-      </div>
-      <div class="feature">
-        <img src="/img/return.png" class="featureImg" alt="" />
-        <span class="featureTitle">FREE SHIPPING</span>
-        <span class="featureDesc">Free World Wide Shipping On All Orders.</span>
-      </div>
-      <div class="feature">
-        <img src="/img/gift.png" class="featureImg" alt="" />
-        <span class="featureTitle">FREE SHIPPING</span>
-        <span class="featureDesc">Free World Wide Shipping On All Orders.</span>
-      </div>
-      <div class="feature">
-        <img src="/img/contact.png" class="featureImg" alt="" />
-        <span class="featureTitle">FREE SHIPPING</span>
-        <span class="featureDesc">Free World Wide Shipping On All Orders.</span>
-      </div>
-    </div>
-    <div class="product" id="product">
-      <img src="/img/air.png" alt="" class="prodImg" />
-      <div class="prodDetails">
-        <h1 class="prodTitle">AIR FORCE</h1>
-        <h1 class="prodPrice">₹9968</h1>
-        <p class="prodDesc">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto,
-          quidem?
-        </p>
 
-        <div class="colors">
-          <div class="color"></div>
-          <div class="color"></div>
-        </div>
-        <div class="sizes">
-          <div class="size">6 UK</div>
-          <div class="size">7 UK</div>
-          <div class="size">8 UK</div>
-          <div class="size">9 UK</div>
-        </div>
-        <button class="prodBtn">BUY NOW!</button>
-      </div>
-      <div class="payment">
-        <h1 class="payTitle">Personal Information</h1>
-        <label for="">Name and Surname</label>
-        <input type="text" placeholder="john doe" class="payInput" />
-        <label for="">Phone no.</label>
-        <input type="number" placeholder="7011398177" class="payInput" />
-        <label for="">Address</label>
-        <input type="text" placeholder="india, mumbai....." class="payInput" />
-        <h1 class="cardTitle">Card Information</h1>
-        <div class="cardIcons">
-          <img src="./img/visa.png" width="50px" class="cardIcon" alt="" />
-          <img src="./img/master.png" width="50px" class="cardIcon" alt="" />
-          <img src="./img/rupay.png" width="70px" class="cardIcon" alt="" />
-        </div>
-        <input type="password" placeholder="card number" class="payInput" />
-        <div class="cardInfo">
-          <input type="text" placeholder="mm" class="payInput sm" />
-          <input type="text" placeholder="yyyy" class="payInput sm" />
-          <input type="text" placeholder="cvv" class="payInput sm" />
-        </div>
-        <button class="payBtn">Checkout</button>
-        <span class="close">X</span>
-      </div>
-    </div>
-    <div class="gallery">
-      <div class="galleryItem">
-        <h1 class="galleryTitle">Be yourself!</h1>
-        <img src="/img/g6.jpg" class="galleryImg" />
-      </div>
-      <div class="galleryItem">
-        <img src="/img/g4.jpg" class="galleryImg" />
-        <h1 class="galleryTitle">Begin the new life</h1>
-      </div>
-      <div class="galleryItem">
-        <h1 class="galleryTitle">Just do it!</h1>
-        <img src="/img/g5.jpg" class="galleryImg" />
-      </div>
-    </div>
-
-    <!-- new season -->
-    <div class="newSeason">
-      <div class="newSeasonItem">
-        <img src="/img/g1.jpg" class="newSeasonImg" alt="" />
-      </div>
-      <div class="newSeasonItem">
-        <h3 class="newSeasonTitle sm">Winter New Arrivals</h3>
-        <h3 class="newSeasonTitle">NEW SEASON</h3>
-        <h3 class="newSeasonTitle">New Collection</h3>
-        <a href="#slider">
-          <button class="newSeasonBtn">Choose your style</button>
-        </a>
-      </div>
-      <div class="newSeasonItem">
-        <img src="/img/g2.jpg" class="newSeasonImg" alt="" />
-      </div>
-    </div>
     <script src="script.js"></script>
   </body>
 </html>

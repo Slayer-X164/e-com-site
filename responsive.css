@@ -1,0 +1,19 @@
+@media screen and (max-width:480px){
+    nav{
+        padding: 20px;
+        height: 80px;
+    }
+    .nav-item img{
+        height: 30px;
+    }
+    #nav-bottom{
+        position: absolute;
+    top: 72px;
+    left: 20%;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .menuItem{
+        font-size: 1rem;
+    }
+}
