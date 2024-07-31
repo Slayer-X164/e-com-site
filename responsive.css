@@ -32,7 +32,7 @@
     }
     .sliderPrice{
         top: unset;
-        bottom: 0;
+        bottom: 2%;
         left: 55%;
         margin: 0;
         font-size: 1.1rem;
@@ -44,7 +44,7 @@
         padding: 9px 10px;
     }
     .buyButton{
-        bottom: 0;
+        bottom: 2%;
         right: 45%;
         top: unset;
         font-size: 1rem;
@@ -64,7 +64,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        height: 120vh;
+        /* height: 120vh; */
         /* background-color: aqua; */
 
     }
@@ -109,7 +109,7 @@
         font-size: 2rem;
     }
     .payment{
-        width: 200px;
+        width: 70%;
         height: 420px;
         overflow-y: scroll;
     }
