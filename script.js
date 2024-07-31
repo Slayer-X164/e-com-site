@@ -12,7 +12,7 @@ const products = [
         img: "/img/air.png",
       },
       {
-        code: "dark blue",
+        code: "darkblue",
         img: "/img/air2.png",
       },
     ],
